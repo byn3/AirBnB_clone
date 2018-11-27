@@ -46,7 +46,49 @@ The most specific selector gets assigned to the HTML element. Here is an example
 
 Calculating the specificity requires looking into 4 colums. In-line styling adds 1 point to columb a. For each ID value, add 1 point to column B. For each class value, add 1 to column c. And for each element reference add 1 to column d. We can read these values like 1,0,0,0 or 1000.
 
-\* has no specificity value (0,0,0,0). 
+\* has no specificity value (0,0,0,0).
 
 What are Box properties in CSS
 Box sizing property defines how the width and height of an element are calculated. There is padding, borders, margins, and box stuff.
+
+
+
+HTML will always represent content, and CSS will always represent the appearance of that content.
+
+Tags are the use of > and <. Opening tag and closing tag. Content is between the 2.
+
+All HTML documents have a required structure that includes the following declaration and elements: <!DOCTYPE html>, <html>, <head>, and <body>.
+
+Some elements do not need a closing tag and are self-closing elements like meta, br, img, wbr, embed, input, param, hr, link, source.
+
+Selectors, property, values.
+
+Type selectors would be something like div {} or p {}. It targets all the elements of that type.
+
+Class selectors choose based on class. Classes have a leading period.
+
+ID selectors only target one unique element. They should be reserved for significant elements. They have a leading #.
+
+There are more advanced selectors.
+
+Default styles are just browsers imposing their own preferred CSS to those elements. CSS resets help cross browser compatibility.
+Lots of popular resets exists. Eric Meyer and Nicolas Gallagher have popular ones.
+
+Different browsers render elements differently. Div is short for division and span is span. Both are for styling purposes and they have no semantic value.
+
+Div and span are just containers. Read above. Block elements start on a new line and stack on each other and can only take up an appropriate width. Large things are usually clocks. Inline elements follow the normal flow of a doc and they line up from end to end and only maintain the width of their content.
+
+Text is the kind of media and content. Headings come in h1 to h6 rankings. Strong vs b. Strong is to give importance and is usually more popular while bold is to make it look different. Italicize with em which stresses the emphasis and i is used to for an alternative tone like if we wanted to use quotes.
+
+For the longest time we used only divs to divide sections of a webpage but now in HTML5 we finally have new divisions.
+Say hello to the new structural elements: header, nav, article, section, aside, and footer.
+
+The header is for the top of a page or article or section. It can even be a nav bar. Nav is used for a section with tons of navigational links. Article is for identifying sections of self contained content that can be reused or distributed. A good rule of thumb for using an article, if we remove this, will the work still make sense? Section is identifying a group of content that generally has a heading and the content inside can be generic.
+
+If someone needs to decide on article, section, or div elements, depends on the content. Both article and section help outline a document and if we need content purely styled then use div. If the content can be redistributed, make it an article. If the content is part of the web page and essential, make it a section.
+
+Aside is an element that holds content like a sidebar, insert, or brief explanation. If an aside is in an article, then it may identify content related to the author of the article. 
+
+Footer identifies the closing or end of a page or element. It is found at the bottom. Content inside should be relative info and not diverge.
+
+Use hyperlinks to navigate between web pages or websites.
