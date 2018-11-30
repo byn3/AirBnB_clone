@@ -116,7 +116,8 @@ ul {
 .amentities ul li {
   padding: 4%;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 16px;
+  padding-left: 50px;
   font-size: 16px;
 }
 

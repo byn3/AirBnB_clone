@@ -116,8 +116,8 @@ ul {
 .amentities ul li {
   padding: 4%;
   text-align: left;
-  margin-left: 10%;
   font-size: 16px;
+  padding-left: 50px;
 }
 
 .iconTV {
